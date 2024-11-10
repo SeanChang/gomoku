@@ -3,54 +3,32 @@
 	<head>
 		<meta charset="utf8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-		<title>五子棋人机网页版在线对战 - Gomoku - 轩辕网</title>
-		<meta name="description" content="一个单人网页版人机在线对战游戏，还原小时候常玩的五子棋游戏。">
-		<meta name="keywords" content="五子棋,连珠,五子连,串珠,五目,五目碰,五格,五石,五法,五联,京棋,轩辕网">
+		<title>Online Gomoku Game with Ai(artificial intelligence) - Gomoku - WebGame.one</title>
+		<meta name="description" content="An online Gomoku game against artificial intelligence. Can you beat it?">
+		<meta name="keywords" content="Gomoku, Renju, Five - in - a - row, Beaded game, Five - point, Five - point collision, Five - grid, Five - stone, Five - method, Five - combination, Beijing chess, Gomoku with artificial intelligence.">
 		<link rel="shortcut icon" href="favicon.png">
 		<link rel="stylesheet" href="./static/style/index.css">
-		<script>
-			var _hmt = _hmt || [];
-			(function() {
-			  var hm = document.createElement("script");
-			  hm.src = "https://hm.baidu.com/hm.js?de18c9bb4f071e1475dae24030912265";
-			  var s = document.getElementsByTagName("script")[0]; 
-			  s.parentNode.insertBefore(hm, s);
-			})();
-		</script>
-		
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6708353961519889" crossorigin="anonymous"></script>
-		
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-9031VS8LHZ"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-9031VS8LHZ');
-		</script>
 	</head>
 	<body>
 		<div class="wrapper">
 			<div class="mod-panel">
-                <div class="hd"><h1><a class="btn" href="https://xuanyuan.me" target="_blank">轩辕网</a>五子棋人机在线对战 ・ Gomoku ｜ <a class="btn" href="https://xuanyuan.me/blog" target="_blank">轩辕博客</a> ｜ <a class="btn" href="https://xuanyuan.me/lab" target="_blank">轩辕导航</a></h1></div>
+                <div class="hd"><h1>Online man - machine battle of Gomoku with AI (artificial intelligence) ・ AI Gomoku</h1></div>
                 <div class="bd">
-                    <canvas id="canvas" width="960" height="640">不支持画布</canvas>
+                    <canvas id="canvas" width="960" height="640">Unsupported canvas</canvas>
                 </div>
                 <div class="ft">
                     <div class="info">
+                    	<p>The side with the black piece goes first</p>
                         <p>执黑棋者先行</p>
-                        <p>The side with the black piece goes first</p>
                     </div>
                     <div class="intro">
+						<p>Gomoku is one of the traditional black - and - white chess games originating in ancient China. In historical books, there is a saying "the sun and the moon are like two round jade pieces joined together, and the five planets are like a string of pearls". It is mainly popular among the Chinese people and within the Chinese - character cultural circle and is the oldest chess game in the world. Usually, both sides use black and white chess pieces respectively and place them on the intersections of the vertical and horizontal lines of the chessboard. The one who first forms a line of five pieces wins.</p>
 						<p>五子棋起源于中国上古时代的传统黑白棋种之一，史书中“日月如合璧，五星如连珠”。主要流行于华人和汉字文化圈，是世界上最古老的棋。通常双方分别使用黑白两色的棋子，下在棋盘直线与横线的交叉点上，先形成5子连线者获胜。</p>
                     </div>
                 </div>
 			</div>
 			<div class="mod-button">
 				<a class="github-button" href="https://github.com/SeanChang" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Follow @SeanChang on GitHub">Follow @SeanChang</a>
-				<a class="github-button" href="https://github.com/SeanChang/gomoku/fork" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork mumuy/gobang on GitHub">Fork</a>
-				<a class="github-button" href="https://github.com/SeanChang/gomoku" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star SeanChang/gomokug on GitHub">Star</a>
-				<a class="btn" href="https://xuanyuan.me" target="_blank">返回首页</a>
 			</div>
 		</div>
 		<script type="text/javascript" src="./dist/gobang.min.js"></script>
